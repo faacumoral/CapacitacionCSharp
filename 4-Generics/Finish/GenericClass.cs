@@ -11,5 +11,10 @@ namespace Capacitacion.Finish
             return default(T);
         }
 
+        public bool Compare(T one, T other)
+        {
+            return one.Equals(other);
+        }
+
     }
 }

@@ -7,15 +7,7 @@ namespace Capacitacion
     {
         static void Main(string[] args)
         {
-            var defaultString = new GenericClass<string>().GetDefault();
-            var defaultDatetime = new GenericClass<DateTime>().GetDefault();
-
-
-
-
-
-            Console.WriteLine(defaultString);
-            Console.WriteLine(defaultDatetime);
+            
 
             Console.ReadKey();
         }
